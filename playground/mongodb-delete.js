@@ -22,7 +22,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, client) => {
     db.collection('Users').deleteOne({
         _id: ObjectID('5a8f9acc99c8344e56e34fc0')
     }).then((resuslt) => {
-        consosle.log(result);
+        console.log(result);
     });
 
     // findOneAndDelete
